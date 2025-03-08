@@ -47,7 +47,7 @@ You can start developing by editing the files inside the **app** directory. This
 
 ## Folder Structure
 
-.
+```
 ├── app
 │ ├── components
 │ │ ├── Card.tsx
@@ -70,6 +70,7 @@ You can start developing by editing the files inside the **app** directory. This
 ├── App.tsx
 ├── [package.json](http://_vscodecontentref_/3)
 └── [README.md](http://_vscodecontentref_/4)
+```
 
 ## Available Scripts
 
