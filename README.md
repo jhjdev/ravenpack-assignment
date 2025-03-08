@@ -2,18 +2,38 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Available Scripts](#available-scripts)
+- [Running the App](#running-the-app)
+- [Testing](#testing)
+- [Linting](#linting)
+- [Debugging](#debugging)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/jhjdev/ravenpack-assignment.git
+   cd your-repo-name
+
+   ```
 
 1. Install dependencies
 
    ```bash
-   npm install
+   pnpm install
    ```
 
-2. Start the app
+1. Start the app
 
    ```bash
-    npx expo start
+    pnpx expo start
    ```
 
 In the output, you'll find options to open the app in a
@@ -25,26 +45,142 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Folder Structure
 
-When you're ready, run:
+.
+├── app
+│ ├── components
+│ │ ├── Card.tsx
+│ │ └── ThemedText.tsx
+│ ├── screens
+│ │ ├── AboutScreen.tsx
+│ │ └── SettingsScreen.tsx
+│ └── tabs
+│ └── settings.tsx
+├── src
+│ ├── contexts
+│ │ └── ThemeContext.tsx
+│ ├── styles
+│ │ ├── styles.ts
+│ │ └── [theme.ts](http://_vscodecontentref_/1)
+│ └── utils
+│ └── helpers.ts
+├── [.eslintrc.js](http://_vscodecontentref_/2)
+├── .prettierrc
+├── App.tsx
+├── [package.json](http://_vscodecontentref_/3)
+└── [README.md](http://_vscodecontentref_/4)
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ```bash
-npm run reset-project
+pnpm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Runs the app in development mode. Open http://localhost:19002 to view it in the browser.
 
-## Learn more
+```bash
+pnpm run android
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Builds the app for Android and starts it on an emulator or connected device.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+pnpm run ios
+```
 
-## Join the community
+Builds the app for iOS and starts it on an emulator or connected device.
 
-Join our community of developers creating universal apps.
+```bash
+pnpm run web
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Runs the app in the web browser.
+
+```bash
+pnpm test
+```
+
+Launches the test runner in interactive watch mode.
+
+```bash
+pnpm run lint
+```
+
+Runs ESLint to analyze the code for potential errors and code style issues.
+
+```bash
+pnpm run lint:fix
+```
+
+Runs ESLint and automatically fixes any fixable issues.
+
+## Running the App
+
+To run the app on your device or emulator, use the following commands:
+
+For Android:
+
+```bash
+pnpm run android
+```
+
+For iOS:
+
+```bash
+pnpm run ios
+```
+
+For Web:
+
+```bash
+pnpm run web
+```
+
+## Testing
+To run tests, use the following command:
+
+```bash
+pnpm test
+```
+
+This will run all the tests in the project using Jest.
+
+## Linting
+
+Linting
+To lint the code, use the following command:
+
+```bash
+pnpm run lint
+```
+
+To automatically fix linting issues, use:
+
+```bash
+pnpm run lint:fix
+```
+
+## Debugging
+To debug the app, you can use the built-in debugging tools provided by Expo. You can also use React Native Debugger or other debugging tools compatible with React Native.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+```bash
+This README file provides a thorough overview of the project, including instructions for getting started, the folder structure, available scripts, and commands for running, testing, linting, and debugging the project.
+```
