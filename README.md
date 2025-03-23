@@ -141,6 +141,7 @@ pnpm run web
 ```
 
 ## Testing
+
 To run tests, use the following command:
 
 ```bash
@@ -151,8 +152,7 @@ This will run all the tests in the project using Jest.
 
 ## Linting
 
-Linting
-To lint the code, use the following command:
+To check for lint errors in the code, use the following command:
 
 ```bash
 pnpm run lint
