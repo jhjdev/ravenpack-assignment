@@ -164,7 +164,7 @@ To automatically fix linting issues, use:
 pnpm run lint:fix
 ```
 
-## Debugging
+## Debugging
 
 To debug the app, you can use the built-in debugging tools provided by Expo. You can also use React Native Debugger or other debugging tools compatible with React Native.
 
