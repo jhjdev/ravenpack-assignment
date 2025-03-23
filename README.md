@@ -140,7 +140,7 @@ For Web:
 pnpm run web
 ```
 
-## Testing
+## Testing
 
 To run tests, use the following command:
 
@@ -150,7 +150,7 @@ pnpm test
 
 This will run all the tests in the project using Jest.
 
-## Linting
+## Linting
 
 To check for lint errors in the code, use the following command:
 
@@ -165,6 +165,7 @@ pnpm run lint:fix
 ```
 
 ## Debugging
+
 To debug the app, you can use the built-in debugging tools provided by Expo. You can also use React Native Debugger or other debugging tools compatible with React Native.
 
 ## Contributing
